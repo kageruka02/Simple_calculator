@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151925;
+  color: white;
+  flex-direction: column;
+}
+.thewholediv {
+  /* width: 500px; */
+  /* height: 400px; */
+  background: rgb(128, 128, 128);
+  border: 8px rgb(33, 148, 62) solid;
+  border-radius: 5px;
+}
+
+.inputScreen {
+  display: flex;
+  color: black;
+  height: 90px;
+  background-color: white;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 700px;
+  justify-content: flex-end;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
+.row-div {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  flex: 1;
+}
+.deleteImage {
+  width: 50%;
+}
+.buttons {
+  font-size: 25px;
+  background-color: #151925;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.buttons1 {
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.buttons2 {
+  font-size: 25px;
+  background-color: rgb(255, 143, 31);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.bodydiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
